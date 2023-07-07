@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+  }
+  
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  figure {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  ul li img {
+    filter: grayscale(100%);
+  }
+  
+  ul li img:hover {
+    filter: none;
+  }
+  
